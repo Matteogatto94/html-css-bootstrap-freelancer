@@ -1,0 +1,40 @@
+:root {
+    --bs_vivid: #1ABC9C;
+    --bs_darker: #2C3E50;
+    --bs_lighter: #3A546D;
+}
+
+.debug header,
+.debug .credits {
+      background-color: var(--bs_darker);
+}
+
+.debug [class^="col"] {
+      border: 1px solid black;
+      height: 50px;
+}
+.debug .jumbotron,
+.debug .about {
+      background-color: var(--bs_vivid);
+}
+.debug header [class^="col"] {
+      background-color: green;
+}
+.debug .jumbotron [class^="col"] {
+      background-color: brown;
+}
+.debug .portfolio [class^="col"] {
+      background-color: lightgoldenrodyellow;
+}
+
+.debug .about [class^="col"] {
+      background-color: lightskyblue;
+}
+
+.debug .credits [class^="col"] {
+    background-color: lightpink;
+}
+
+.debug .copyright [class^="col"] {
+    background-color: lightcoral;
+}

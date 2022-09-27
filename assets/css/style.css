@@ -56,6 +56,15 @@ header {
 
 
 /* #region start */
+
+.hidden_item i {
+      color: #646B72;
+      border: 1px solid white;
+      padding: 0.5rem 0.7rem;
+      border-radius: 20%;
+}
+
+
 .jumbotron img {
       width: 150px;
 }
@@ -63,8 +72,8 @@ header {
 .fs_nav_right a{
       text-decoration: none;
       font-size: 11px;
-      padding: 0 1rem;
       color: white;
+      padding: 0 0.5rem;
       
 }
 
@@ -160,11 +169,28 @@ header {
       margin-left: 0.5rem;
 }
 
-.copyright {
-      margin-top: 2rem;
-}
 
 .copyright p {
       color: white;
 }
 /* #endregion footer */
+
+
+/* #region responsive for hidden item */
+
+@media screen and (max-width: 479px) {
+     
+      .nav-item {
+            display: none;
+      }
+
+
+}
+
+@media screen and (min-width: 480px) {
+      .hidden_item {
+            display: none;
+      }
+}
+
+/* #endregion responsive for hidden item */

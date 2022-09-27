@@ -159,4 +159,12 @@ header {
       padding: 1rem;
       margin-left: 0.5rem;
 }
+
+.copyright {
+      margin-top: 2rem;
+}
+
+.copyright p {
+      color: white;
+}
 /* #endregion footer */

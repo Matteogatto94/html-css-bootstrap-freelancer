@@ -133,3 +133,30 @@ header {
 .contact_me {
       margin-top: 2rem;
 }
+
+/* #endregion contact_me */
+
+/* #region footer */
+
+.credits {
+      background-color: var(--bs_lighter);
+      margin-top: 2rem;
+      color: white;
+}
+
+.copyright {
+      background-color: var(--bs_darker);
+}
+
+.credits a {
+      text-decoration: none;
+      color: var(--bs_start);
+}
+
+.credits i {
+      border-radius: 50%;
+      border: 1px solid white;
+      padding: 1rem;
+      margin-left: 0.5rem;
+}
+/* #endregion footer */

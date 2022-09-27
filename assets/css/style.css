@@ -4,6 +4,8 @@
     --bs_lighter: #3A546D;
 }
 
+
+/* #region debug */
 .debug header,
 .debug .credits {
       background-color: var(--bs_darker);
@@ -37,4 +39,65 @@
 
 .debug .copyright [class^="col"] {
     background-color: lightcoral;
+}
+
+/* #endregion debug */
+
+
+img {
+      max-width: 100%;
+}
+
+.jumbotron img {
+      width: 150px;
+}
+
+header {
+      background-color: var(--bs_darker);
+}
+
+.fs_nav_right a{
+      text-decoration: none;
+      font-size: 11px;
+      padding: 0 1rem;
+      color: white;
+      
+}
+
+.col_white {
+      color: white;
+}
+
+.jumbotron {
+      background-color: var(--bs_vivid);
+}
+
+.profile h1 {
+      color: white;
+      padding: 0.5rem;
+}
+
+.line_white {
+      height: 2px;
+      width: 100px;
+      background-color: white;
+}
+
+.line_black {
+      height: 2px;
+      width: 100px;
+      background-color: black;
+}
+
+.profile_description i {
+      padding: 0 1rem;
+      color: white;
+}
+
+.profile_description_2 i {
+      padding: 0 1rem;
+}
+
+.portfolio {
+      margin-top: 2rem;
 }
